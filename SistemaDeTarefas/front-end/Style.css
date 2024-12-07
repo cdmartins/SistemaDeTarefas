@@ -1,0 +1,50 @@
+﻿/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para o título */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a descrição */
+p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Contêiner dos botões */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Estilo dos botões */
+.btn {
+    background-color: #808080; /* Cinza */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px; /* Cantos arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    /* Efeito de hover nos botões */
+    .btn:hover {
+        background-color: #666666; /* Cinza mais escuro */
+    }
