@@ -5,7 +5,7 @@
 namespace SistemaDeTarefas.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialDB : Migration
+    public partial class CreateBDTables : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
